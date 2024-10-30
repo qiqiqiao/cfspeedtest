@@ -18,6 +18,5 @@ for subnet in subnets:
             filtered_ips.append(str(ip))
 
 # 输出结果
-print("符合条件的IP地址：")
 for ip in filtered_ips:
     print(ip)
